@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Profil</title>
+  </head>
+  <body style="background-color: #F7F7F7;">
+    <!-- Titre -->
+    <h1>Ryad BAHI</h1>
+
+    <!-- Photo de profil -->
+
+    <div style="position: relative; display: inline-block">
+      <img
+        src="https://dallas.culturemap.com/media-library/matthe-mcconaughey-headshot.jpg?id=52679625&width=2000&height=1500&quality=65&coordinates=0%2C0%2C0%2C2"
+        alt="Photo de profil"
+        width="150"
+        title="Me jugez pas je n'ai pas de photo recente"
+      />
+      <span
+        style="
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: rgb(253, 0, 0);
+          font-weight: bold;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+          padding: 5px;
+          border-radius: 5px;
+        "
+        >Placeholder    <br><br><br>   (of course)</span
+      >
+    </div>
+
+    <!-- Bio -->
+    <h2>Biographie</h2>
+    <div style="width:35%">    
+        <p>Passionné par la technologie depuis longtemps, j’ai développé des compétences en développement web avec <b>Angular (v16 à v18), Node.js et MySQL</b>. 
+          Travaillant actuellement dans le domaine de l’assurance depuis 10 ans, je gère des cas complexes, notamment liés à la fraude. 
+          J’ai également une expérience dans le tourisme et j’ai créé une application web personnelle pour optimiser mes tâches quotidiennes. 
+          Toujours en quête d’amélioration, j’apprends l’algorithmie pour mieux maîtriser <b>JavaScript</b> et j’envisage une reconversion vers un domaine plus en accord avec mes aspirations</p></div>
+
+
+    <!-- hobbies -->
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Voyages</li>
+      <li>Technologies</li>
+      <li>Jeux video</li>
+    </ul>
+
+    <!-- Lien vers GitHub -->
+    <h2>GitHub</h2>
+    <p>
+      <a href="https://github.com/ryadbahi" target="_blank"
+        ><img src="Assets/github-logo.png" alt="" style="height: 64px; width: 64px";></a
+      >
+    </p>
+
+    <!-- Expérience professionnelle -->
+    <h2>Expérience professionnelle</h2>
+    <table border="1">
+      <tr>
+        <th>Nom du poste</th>
+        <th>Entreprise</th>
+        <th>Durée</th>
+      </tr>
+      <tr>
+        <td>Agent dd'assurance</td>
+        <td>Ciar / Macirvie (AGA)</td>
+        <td>2 ans</td>
+      </tr>
+      <tr>
+        <td>Agent de voyage</td>
+        <td>Cesar travels</td>
+        <td>3 ans</td>
+      </tr>
+
+      <tr>
+        <td>Cadre techinique sinistre</td>
+        <td>Macirvie SPA</td>
+        <td>8 ans (en cours)</td>
+      </tr>
+    </table>
+
+    <!-- Formulaire de contact -->
+    <h2>Contact</h2>
+    <form>
+      <label for="nom">Nom :</label><br>
+      <input type="text" id="nom" name="nom" required /><br /><br />
+
+      <label for="email">Email :</label><br>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Message :</label><br />
+      <textarea id="message" name="message" rows="8"  cols="60"></textarea
+      ><br /><br />
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </body>
+</html>
